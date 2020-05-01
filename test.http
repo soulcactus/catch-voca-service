@@ -1,0 +1,8 @@
+POST https://us-central1-catch-voca-f9597.cloudfunctions.net/translate HTTP/1.1
+content-type: application/json
+
+{
+    "source": "ko",
+    "target": "en",
+    "text": "바나나"
+}
